@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(46, 45, 45);
+}
+.profileheader{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    height: 60px;
+    background-color: rgb(253, 64, 7);
+    margin: auto;
+}
+.header{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 50;
+    position: relative;
+    margin-left: 20px;
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 0px;
+}
+.arrow_left{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+i {
+    border: solid white;
+    border-width: 0 5px 5px 0px;
+    display: inline-block;
+    padding: 10px;
+}
+.menu{
+    position: relative;
+    color:white;
+    font-family: Courier, monospace;
+    font-size: 20px;
+    text-align: right;
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    overflow: visible;
+    margin-top: 5px;
+}
+.wrapper{
+    position: relative;
+    border: 2px solid white;
+    margin-top: 100px;
+    background-color: white;
+    height: 500px;
+    width: 1400px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.data{
+    font-family: "gilroyextrabold";
+    font-size: 20px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+}
+.contacty{
+    position: relative;
+    font-size: 2rem;
+    color: rgb(46, 45, 45);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.rent{
+    position: relative;
+    font-size: 1.4rem;
+    color: rgb(46, 45, 45);
+    font-family: "gilroylight", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+}
+li{
+    list-style-type: none;
+    text-align: left;
+}
+.block{
+    height: fit-content;
+    width: fit-content;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.form-control{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-shadow: inset 0 1px 10px rgb(0 0 0 / 8%);
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+li{
+    color: rgb(46, 45, 45);
+}
+.transition{
+    margin-top: 450px;
+    position: absolute;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+}
+.transition:hover{
+    text-decoration: 2px underline;
+}
+.arrow_2{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    border: solid rgb(46, 45, 45);
+    border-width: 0 3px 3px 0px;
+    display: inline-block;
+    padding: 5px;
+}
+
+
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    justify-content: center;
+    filter: grayscale(0%);
+    transition: 1s;
+    color: steelblue;
+    font-size: 30px;
+  }
+  input {
+    display: none;
+  }
+  .asd {
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(255, 77, 23);
+    border-radius: 5px;
+    border: 2px solid silver;
+    cursor: pointer;
+    text-align: center;
+  }
+  .asd:after {
+    content: 'Отправить';
+    font-size: 16px;
+    color: white;
+    position: relative;
+    top: -5px;
+  }
+  input:checked ~ .asd {
+    background-color: green;
+  }
+  input:checked ~ .asd:after {
+    content: 'Отправлено';
+    color: white;
+  }
+
+
+
+
+
+
+  
